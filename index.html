@@ -70,7 +70,7 @@
   </script>
 </head>
 
-<body class="h-full dark:pintree-bg-gray-900 bg-white">
+<body class="h-full light:pintree-bg-gray-900 bg-white">
 
   <div>
     <!-- Mobile Off-Canvas Menu -->
@@ -92,10 +92,10 @@
           </div>
 
           <!-- Off-canvas Sidebar content -->
-          <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white dark:pintree-bg-gray-900 px-6 pb-4">
+          <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white light:pintree-bg-gray-900 px-6 pb-4">
             <div class="flex h-16 shrink-0 items-center">
               <img class="pl-2 h-8 w-auto" src="assets/logo.svg" alt="Pintree">
-              <a href="" class="ml-4 font-extrabold text-2xl dark:text-white">Pintree</a>
+              <a href="" class="ml-4 font-extrabold text-2xl light:text-white">Pintree</a>
             </div>
             <div id="sidebar-2" class="flex flex-1 flex-col">
               <!-- Sidebar content will be injected here -->
@@ -108,10 +108,10 @@
     <!-- Static Sidebar for Desktop -->
     <div class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-60 lg:flex-col">
       <div
-        class="flex flex-col border-r border-gray-200 dark:pintree-border-gray-800 bg-white px-4 h-full font-semibold dark:pintree-bg-gray-900">
+        class="flex flex-col border-r border-gray-200 light:pintree-border-gray-800 bg-white px-4 h-full font-semibold light:pintree-bg-gray-900">
         <div class="flex p-0 h-16 shrink-0 items-center">
           <img class="pl-2 h-8 w-auto" src="assets/logo.svg" alt="Pintree">
-          <a href="" class="ml-4 font-extrabold text-2xl dark:text-white">Pintree</a>
+          <a href="" class="ml-4 font-extrabold text-2xl light:text-white">Pintree</a>
         </div>
         <div class="flex flex-1 flex-col overflow-y-auto no-scrollbar p-1 cursor-pointer">
           <div id="sidebar" class="flex flex-1 flex-col">
@@ -124,9 +124,9 @@
     </div>
 
     <!-- Main Content Area -->
-    <div class="lg:pl-60 dark:pintree-bg-gray-900 flex flex-col min-h-screen">
+    <div class="lg:pl-60 light:pintree-bg-gray-900 flex flex-col min-h-screen">
       <div
-        class="items-center justify-between sticky top-0 z-40 flex h-16 shrink-0 gap-x-4 border-b border-gray-200 dark:pintree-border-gray-800 bg-white dark:pintree-bg-gray-900 px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
+        class="items-center justify-between sticky top-0 z-40 flex h-16 shrink-0 gap-x-4 border-b border-gray-200 light:pintree-border-gray-800 bg-white light:pintree-bg-gray-900 px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
         <div class="h-full items-center flex flex-1 gap-x-4 self-stretch lg:gap-x-6 justify-between">
           <div class="flex gap-x-4 justify-between">
             <img class="pl-2 h-8 w-auto lg:hidden" src="assets/logo.svg" alt="Pintree">
@@ -140,18 +140,18 @@
                 </svg>
               </button>
               <input id="searchInput" type="search"
-                class="text-sm text-gray-900 dark:text-gray-400 pl-8 h-full border-0 focus:outline-none focus:ring-0 dark:pintree-bg-gray-900"
+                class="text-sm text-gray-900 light:text-gray-400 pl-8 h-full border-0 focus:outline-none focus:ring-0 light:pintree-bg-gray-900"
                 placeholder="Search...">
               <button id="clearSearchButton" class="text-sm text-gray-500 mr-4 rounded hidden">Clear</button>
             </div>
           </div>
-          <a href="" class="lg:hidden ml-4 font-extrabold text-2xl dark:text-white">Pintree</a>
+          <a href="" class="lg:hidden ml-4 font-extrabold text-2xl light:text-white">Pintree</a>
           <div class="relative">
             <button id="themeToggleButton" type="button" aria-label="Switch theme"
-              class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:pintree-bg-gray-900 dark:ring-white/10 dark:hover:ring-white/20">
+              class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition light:pintree-bg-gray-900 light:ring-white/10 light:hover:ring-white/20">
               <svg id="sunIcon" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
                 aria-hidden="true"
-                class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
+                class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 light:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
                 <path
                   d="M8 12.25A4.25 4.25 0 0 1 12.25 8v0a4.25 4.25 0 0 1 4.25 4.25v0a4.25 4.25 0 0 1-4.25 4.25v0A4.25 4.25 0 0 1 8 12.25v0Z">
                 </path>
@@ -160,7 +160,7 @@
                   fill="none"></path>
               </svg>
               <svg id="moonIcon" viewBox="0 0 24 24" aria-hidden="true"
-                class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition dark:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
+                class="hidden h-6 w-6 fill-zinc-700 stroke-zinc-500 transition light:block [@media(prefers-color-scheme:dark)]:group-hover:stroke-zinc-400 [@media_not_(prefers-color-scheme:dark)]:fill-teal-400/10 [@media_not_(prefers-color-scheme:dark)]:stroke-teal-500">
                 <path
                   d="M17.25 16.22a6.937 6.937 0 0 1-9.47-9.47 7.451 7.451 0 1 0 9.47 9.47ZM12.75 7C17 7 17 2.75 17 2.75S17 7 21.25 7C17 7 17 11.25 17 11.25S17 7 12.75 7Z"
                   stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -171,7 +171,7 @@
       </div>
 
       <!-- Main content area -->
-      <main class="mt-4 dark:pintree-bg-gray-900 flex-grow">
+      <main class="mt-4 light:pintree-bg-gray-900 flex-grow">
         <div id="loading-spinner" class="flex justify-center items-center h-full">
           <div class="loader ease-linear rounded-full border-2 border-t-2 border-gray-400 h-6 w-6"></div>
         </div>
@@ -186,7 +186,7 @@
       </main>
 
       <!-- Footer -->
-      <footer class="bg-white w-full dark:pintree-bg-gray-900">
+      <footer class="bg-white w-full light:pintree-bg-gray-900">
         <div class="mx-auto px-6 py-6 md:flex md:items-center md:justify-between lg:px-8">
           <div class="flex justify-center space-x-6 md:order-2">
             <a href="https://x.com/pintree_io" target="_blank" class="text-gray-400 hover:text-gray-500">
@@ -206,7 +206,7 @@
             </a>
           </div>
           <div class="mt-8 md:order-1 md:mt-0">
-            <p class="text-center text-xs leading-5 text-gray-500 dark:text-gray-400 flex justify-center items-center">
+            <p class="text-center text-xs leading-5 text-gray-500 light:text-gray-400 flex justify-center items-center">
               &copy; <span id="currentYear"></span>&nbsp;Built with
               <a href="https://pintree.io" class="text-green-600 hover:text-green-500 flex items-center ml-1"
                 target="_blank">
@@ -328,7 +328,7 @@
     // Create bookmark card element
     function createCard(title, url, icon) {
       const card = document.createElement('div');
-      card.className = 'cursor-pointer flex items-center hover:shadow-sm transition-shadow p-4 bg-white shadow-sm ring-1 ring-gray-900/5 dark:pintree-ring-gray-800 rounded-lg hover:bg-gray-100 dark:pintree-bg-gray-900 dark:hover:pintree-bg-gray-800';
+      card.className = 'cursor-pointer flex items-center hover:shadow-sm transition-shadow p-4 bg-white shadow-sm ring-1 ring-gray-900/5 light:pintree-ring-gray-800 rounded-lg hover:bg-gray-100 light:pintree-bg-gray-900 light:hover:pintree-bg-gray-800';
       card.onclick = () => window.open(url, '_blank'); // Make the whole card clickable
 
       const cardIcon = document.createElement('img');
@@ -345,14 +345,14 @@
       cardContent.className = 'flex flex-col overflow-hidden'; // Ensure the content is hidden if too long
 
       const cardTitle = document.createElement('h2');
-      cardTitle.className = 'text-sm font-medium mb-1 truncate dark:text-gray-400';
+      cardTitle.className = 'text-sm font-medium mb-1 truncate light:text-gray-400';
       cardTitle.innerText = title;
 
       // Clean URL by removing http(s) and trailing slash
       const cleanUrl = url.replace(/^https?:\/\//, '').replace(/\/$/, '');
 
       const cardUrl = document.createElement('p');
-      cardUrl.className = 'text-xs text-gray-400 dark:text-gray-600 dark:hover:text-gray-400 truncate';
+      cardUrl.className = 'text-xs text-gray-400 light:text-gray-600 light:hover:text-gray-400 truncate';
       cardUrl.innerText = cleanUrl; // Use cleaned URL
 
       cardContent.appendChild(cardTitle);
@@ -387,7 +387,7 @@
       cardIcon.className = 'mb-2';
 
       const cardTitle = document.createElement('h2');
-      cardTitle.className = 'text-xs font-normal text-center w-full truncate dark:text-gray-400';
+      cardTitle.className = 'text-xs font-normal text-center w-full truncate light:text-gray-400';
       cardTitle.innerText = title;
 
       card.appendChild(cardIcon);
@@ -402,7 +402,7 @@
       folders.forEach((folder, index) => {
         if (folder.type === 'folder') {
           const navItem = document.createElement('li');
-          navItem.className = 'items-center group flex justify-between gap-x-3 rounded-md p-2 text-gray-700 dark:text-gray-400 hover:text-main-500 hover:bg-gray-50 dark:hover:pintree-bg-gray-800 bg-opacity-50';
+          navItem.className = 'items-center group flex justify-between gap-x-3 rounded-md p-2 text-gray-700 light:text-gray-400 hover:text-main-500 hover:bg-gray-50 light:hover:pintree-bg-gray-800 bg-opacity-50';
 
           const navLinkContainer = document.createElement('div');
           navLinkContainer.className = 'flex items-center space-x-2 truncate';
@@ -411,7 +411,7 @@
           folderIcon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7a2 2 0 012-2h4l2 2h7a2 2 0 012 2v7a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" /></svg>';
 
           const navLink = document.createElement('a');
-          navLink.className = 'flex text-sm leading-6 font-semibold dark:text-gray-400';
+          navLink.className = 'flex text-sm leading-6 font-semibold light:text-gray-400';
           navLink.innerText = folder.title;
 
           navLinkContainer.appendChild(folderIcon);
@@ -578,7 +578,7 @@
       // Add separator line if there are links
       if (folders.length > 0 && links.length > 0) {
         const separator = document.createElement('hr');
-        separator.className = 'my-1 border-t-1 border-gray-200 dark:pintree-border-gray-800';
+        separator.className = 'my-1 border-t-1 border-gray-200 light:pintree-border-gray-800';
         container.appendChild(separator);
       }
 
